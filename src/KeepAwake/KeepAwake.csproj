@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Optional build path: requires the .NET 8 SDK.
+       The zero-dependency build is build.cmd (uses the .NET Framework
+       compiler that ships with Windows). -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>KeepAwake</AssemblyName>
+    <RootNamespace>KeepAwake</RootNamespace>
+    <ApplicationIcon>..\..\assets\KeepAwake.ico</ApplicationIcon>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+</Project>

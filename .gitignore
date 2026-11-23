@@ -1,0 +1,12 @@
+# Build output
+dist/
+bin/
+obj/
+
+# Build byproducts
+*.pdb
+
+# IDE
+.vs/
+*.user
+*.suo
